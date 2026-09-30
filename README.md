@@ -85,7 +85,7 @@ Funcionalidades
 GitFlow
 O projeto segue o padrão GitFlow:
 
-| Categoria | Tecnologias |
+| Pasta | Arquivos |
 |-----------|-------------|
 | **main** | Código estável em produção |
 | **develop** | Desenvolvimento contínuo |
