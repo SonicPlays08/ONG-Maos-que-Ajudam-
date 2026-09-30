@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mãos que Ajudam – ONG que conecta voluntários e doadores a causas sociais que transformam comunidades.">
+    <title>Mãos que Ajudam – Transformando Comunidades</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="topo">
+                <img src="image/ongMaos.png" alt="Logotipo da ONG Mãos que Ajudam" width="80" height="80">
+                <h1>Mãos que Ajudam – Transformando Comunidades</h1>
+            </div>
+
+            <div class="menu-desktop">
+                <nav aria-label="Menu principal">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                    </ul>
+                </nav>
+                <nav aria-label="Menu da página">
+                    <ul>
+                        <li><a href="#quem-somos">Quem Somos</a></li>
+                        <li><a href="#voluntariado">Voluntariado</a></li>
+                        <li><a href="#doacoes">Doações</a></li>
+                        <li><a href="#impacto">Impacto</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <details class="menu-mobile">
+                <summary aria-label="Abrir menu">☰ Menu</summary>
+                <nav aria-label="Menu principal">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><a href="#quem-somos">Quem Somos</a></li>
+                        <li><a href="#voluntariado">Voluntariado</a></li>
+                        <li><a href="#doacoes">Doações</a></li>
+                        <li><a href="#impacto">Impacto</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </details>
+        </header>
+
+        <main>
+
+            <section id="quem-somos" aria-label="Quem Somos">
+                <h2>Quem Somos</h2>
+                <div class="texto">
+                    <p>A Mãos que Ajudam é uma ONG dedicada a conectar pessoas dispostas a doar tempo e recursos a causas sociais que precisam de apoio.</p>
+                    <h3>Nossa Missão</h3>
+                    <p>Transformar comunidades através do voluntariado e da solidariedade.</p>
+                    <h3>Nossos Valores</h3>
+                    <ul>
+                        <li>Solidariedade</li>
+                        <li>Transparência</li>
+                        <li>Impacto social</li>
+                        <li>Colaboração</li>
+                    </ul>
+                </div>
+                <div class="imagem">
+                    <img src="image/ongEquipe.png" alt="Equipe da ONG Mãos que Ajudam reunida" width="300" height="200" loading="lazy">
+                </div>
+            </section>
+
+            <section id="voluntariado" aria-label="Como Ser Voluntário">
+                <h2>Como Ser Voluntário</h2>
+                <div class="texto">
+                    <p>Oferecemos diversas oportunidades de voluntariado para todos os perfis e disponibilidades.</p>
+                    <h3>Áreas de Atuação</h3>
+                    <ul>
+                        <li>Educação</li>
+                        <li>Saúde</li>
+                        <li>Meio ambiente</li>
+                        <li>Assistência social</li>
+                    </ul>
+                    <h3>Requisitos e Inscrição</h3>
+                    <p>Para se inscrever, basta preencher o <a href="cadastro.html">formulário online</a>.</p>
+                </div>
+                <div class="imagem">
+                    <img src="image/ongVoluntarios.png" alt="Voluntários trabalhando em comunidade" width="300" height="200" loading="lazy">
+                </div>
+            </section>
+
+            <section id="doacoes" aria-label="Como Doar">
+                <h2>Como Doar</h2>
+                <p>Sua doação nos ajuda a manter nossas campanhas e ampliar o impacto social.</p>
+
+                <div class="alerta alerta-sucesso" role="status">
+                    <strong>Transparência:</strong> 100% das doações são revertidas para as campanhas.
+                </div>
+
+                <h3>Campanhas Ativas</h3>
+                <div class="cards-doacao">
+                    <div class="card">
+                        <span class="badge badge-assistencia">Assistência</span>
+                        <h4>Campanha do Agasalho 2026</h4>
+                        <p>Arrecadação de roupas para famílias em situação de vulnerabilidade.</p>
+                    </div>
+                    <div class="card">
+                        <span class="badge badge-assistencia">Assistência</span>
+                        <h4>Natal Solidário</h4>
+                        <p>Distribuição de cestas básicas e brinquedos para crianças.</p>
+                    </div>
+                    <div class="card">
+                        <span class="badge badge-educacao">Educação</span>
+                        <h4>Educação para Todos</h4>
+                        <p>Apoio a projetos de reforço escolar e inclusão digital.</p>
+                    </div>
+                </div>
+
+                <h3>Formas de Doação</h3>
+                <div class="cards-formas">
+                    <div class="card-forma">
+                        <img src="image/pix.png" alt="Ícone Pix" width="48" height="48" loading="lazy">
+                        <h4>Pix</h4>
+                        <p>doacoes@maosqueajudam.org</p>
+                        <button class="botao" onclick="document.getElementById('modal-doacao').showModal()">Doar via Pix</button>
+                    </div>
+                    <div class="card-forma">
+                        <img src="image/bank.png" alt="Ícone Transferência" width="48" height="48" loading="lazy">
+                        <h4>Transferência</h4>
+                        <p>Banco 000 | Ag 0000 | CC 00000-0</p>
+                        <a href="cadastro.html" class="botao">Doar via Transferência</a>
+                    </div>
+                    <div class="card-forma">
+                        <img src="image/credit.png" alt="Ícone Cartão" width="48" height="48" loading="lazy">
+                        <h4>Cartão</h4>
+                        <p>Doação única ou recorrente</p>
+                        <a href="cadastro.html" class="botao">Doar com Cartão</a>
+                    </div>
+                </div>
+
+                <h3>Transparência</h3>
+                <p>Publicamos relatórios trimestrais com a prestação de contas de todas as doações recebidas.</p>
+            </section>
+
+            <section id="impacto" aria-label="Nosso Impacto">
+                <h2>Nosso Impacto</h2>
+                <img src="image/ongSorriso.png" alt="Crianças sorrindo após receberem apoio da ONG" width="300" height="200" loading="lazy">
+                <p>Em 2025, impactamos mais de 5.000 pessoas em 12 comunidades, com a ajuda de 300 voluntários ativos.</p>
+
+                <div class="alerta alerta-aviso" role="alert">
+                    <strong>Atenção:</strong> As vagas para voluntariado em 2026 estão se esgotando. Inscreva-se logo!
+                </div>
+            </section>
+
+            <section id="contato" aria-label="Contato">
+                <h2>Contato</h2>
+                <p>Entre em contato para saber mais sobre como participar:</p>
+                <ul>
+                    <li><a href="mailto:contato@maosqueajudam.org">E-mail</a></li>
+                    <li><a href="https://linkedin.com/company/maos-que-ajudam" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://github.com/maos-que-ajudam" target="_blank" rel="noopener">GitHub</a></li>
+                </ul>
+                <p>Ou preencha o <a href="cadastro.html">formulário de cadastro</a>.</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Mãos que Ajudam. Todos os direitos reservados.</p>
+            <p>ONG sem fins lucrativos dedicada ao voluntariado e à solidariedade.</p>
+            <nav aria-label="Menu do rodapé">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </div>
+
+    <dialog id="modal-doacao" class="modal">
+        <h3>Obrigado por doar!</h3>
+        <p>Sua contribuição via Pix faz a diferença. Enviamos os dados para o seu e-mail.</p>
+        <button class="botao" onclick="document.getElementById('modal-doacao').close()" aria-label="Fechar modal">Fechar</button>
+    </dialog>
+
+    <script src="js/config.js" defer></script>
+    <script src="js/storage.js" defer></script>
+    <script src="js/ui.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
