@@ -95,7 +95,7 @@ O projeto segue o padrão GitFlow:
 
 ---
 
-📫 Contato
+Contato
 LinkedIn: [link-do-linkedin]
 
 GitHub: [https://github.com/seu-usuario]
@@ -104,12 +104,12 @@ E-mail: [seu-email@email.com]
 
 "Dados são respostas esperando a pergunta certa."
 
-Vamos construir algo simples e transformador juntos? 🚀
+Vamos construir algo simples e transformador juntos? 
 
 
 ---
 
-## 📌 O QUE ESSE README COBRE
+## O QUE ESSE README COBRE
 
 | Seção | O que mostra |
 |-------|--------------|
