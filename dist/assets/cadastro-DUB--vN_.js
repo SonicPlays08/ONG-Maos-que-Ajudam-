@@ -1,1 +1,0 @@
-import"./main-BCkL6oUB.js";window.Masks={iniciar(){if(typeof IMask>`u`)return;let e=document.getElementById(`cpf`);e&&IMask(e,{mask:`000.000.000-00`});let t=document.getElementById(`telefone`);t&&IMask(t,{mask:`(00) 00000-0000`});let n=document.getElementById(`cep`);n&&IMask(n,{mask:`00000-000`})}};
