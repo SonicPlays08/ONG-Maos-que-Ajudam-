@@ -1,16 +1,15 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'node:path';
+import { resolve } from 'path';
 
 export default defineConfig({
-    appType: 'mpa',
-
-    build: {
-        rolldownOptions: {
-            input: {
-                index: resolve(import.meta.dirname, 'index.html'),
-                projetos: resolve(import.meta.dirname, 'projetos.html'),
-                cadastro: resolve(import.meta.dirname, 'cadastro.html')
-            }
-        }
-    }
+  base: '/ONG-Maos-que-Ajudam-/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        projetos: resolve(__dirname, 'projetos.html'),
+        cadastro: resolve(__dirname, 'cadastro.html'),
+      },
+    },
+  },
 });
